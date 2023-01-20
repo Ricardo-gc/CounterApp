@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas es FirstApp Shouel match with snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Hola Mundo
+  </h1>
+  <p>
+    No SubTitle
+  </p>
+  <div>
+    Ricardo García
+  </div>
+</div>
+`;
