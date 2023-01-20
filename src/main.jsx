@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-// import { FirstApp } from './FirstApp';
+import { FirstApp } from './FirstApp';
 // import { HelloWorldApp } from './HelloApp';
 import { CounterApp } from './CounterApp';
 
@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <HelloWorldApp /> */}
-    {/* <FirstApp /> */}
-    <CounterApp value={ 7 }/>
+    <FirstApp title='Hello World!!'/>
+    {/* <CounterApp value={ 7 }/> */}
   </React.StrictMode>
 )
